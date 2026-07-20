@@ -7,13 +7,18 @@ Run scrape_multi_app.py first to generate the data this page reads.
 
 import os
 import glob
+import sys
 import pandas as pd
 import plotly.express as px
 import streamlit as st
 from collections import Counter
 import re
 
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "src"))
+from dashboard_style import inject_style
+
 st.set_page_config(page_title="Compare Apps", layout="wide")
+inject_style()
 st.title("Quick-Commerce App Comparison")
 st.caption("Benchmarking Zepto against competitors on review sentiment and complaint themes")
 

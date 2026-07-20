@@ -8,11 +8,17 @@ This is the artifact that shows PM thinking, not just data analysis —
 it's literally how real roadmap prioritization debates happen.
 """
 
+import os
+import sys
 import pandas as pd
 import plotly.express as px
 import streamlit as st
 
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "src"))
+from dashboard_style import inject_style
+
 st.set_page_config(page_title="RICE Prioritization", layout="wide")
+inject_style()
 st.title("RICE Prioritization Simulator")
 st.caption("Drag the sliders to score each pain point — the ranking updates live")
 

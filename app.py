@@ -10,8 +10,13 @@ import json
 import pandas as pd
 import plotly.express as px
 import streamlit as st
+import sys
+import os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "src"))
+from dashboard_style import inject_style
 
 st.set_page_config(page_title="Zepto Review Intelligence", layout="wide")
+inject_style()
 
 st.title("Zepto Review Intelligence")
 st.caption("Mining Play Store reviews to surface real product pain points")
@@ -84,4 +89,4 @@ except FileNotFoundError:
     st.info("Run ai_summary.py to see AI-generated summaries here.")
 
 st.divider()
-st.caption("Built by Aadrika Deokathe — full pipeline and code at github.com/aadrikadeokathe/zepto-review-intelligence")
+st.caption("Built by Aadrika Deokathe — full pipeline and code at [GitHub link]")
