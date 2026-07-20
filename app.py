@@ -84,4 +84,4 @@ except FileNotFoundError:
     st.info("Run ai_summary.py to see AI-generated summaries here.")
 
 st.divider()
-st.caption("Built by Aadrika Deokathe — full pipeline and code at [GitHub link]")
+st.caption("Built by Aadrika Deokathe — full pipeline and code at github.com/aadrikadeokathe/zepto-review-intelligence")
