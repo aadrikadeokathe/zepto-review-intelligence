@@ -1,0 +1,44 @@
+[
+  {
+    "cluster_theme": "Unresponsive Customer Support and Refund Failures for Damaged Deliveries",
+    "summary": "Users are highly frustrated by the lack of accessible customer support, complaining about automated chatbots, missing phone helplines, and unhelpful agents who refuse to resolve issues. This is exacerbated by the frequent delivery of damaged, expired, or incorrect products, coupled with a rigid return system that fails to issue refunds or crashes during photo verification.",
+    "suggested_fix": "Introduce a dedicated human-led phone support channel and fix the in-app photo upload bug to streamline return requests. Additionally, empower support agents to issue instant refunds or replacements for damaged goods instead of relying on rigid, automated refusal policies.",
+    "cluster_id": 0,
+    "review_count": 134
+  },
+  {
+    "cluster_theme": "Ineffective customer support and unfair refund rejections",
+    "summary": "Customers are highly frustrated by customer support dismissing complaints regarding damaged, expired, or missing items by relying on generic automated responses and unilaterally closing active chat sessions. Additionally, users report being unfairly denied refunds despite offering proof, experiencing deceptive 'one-ring' callbacks, and being unable to reach actual human agents for resolution.",
+    "suggested_fix": "Improve the support system by disabling agents' ability to close chats without customer consent, enabling reliable media uploads within the chat interface, and establishing a transparent human-in-the-loop escalation pathway for disputed refund rejections.",
+    "cluster_id": 1,
+    "review_count": 139
+  },
+  {
+    "cluster_theme": "Product Quality Issues and Flawed Refund & Account Policies",
+    "summary": "Customers are frequently receiving damaged or low-quality items and are unable to secure refunds due to app glitches, sudden account freezes, or unhelpful customer support. There is also significant frustration regarding perceived unfairness in account-specific pricing, extra handling fees, and non-functional promo codes.",
+    "suggested_fix": "Implement stricter quality assurance checks for goods before delivery and fix technical glitches in the in-app return/refund system. Additionally, standardize pricing, handling fees, and promo code eligibility to ensure transparency and fairness across all user accounts.",
+    "cluster_id": 2,
+    "review_count": 604
+  },
+  {
+    "cluster_theme": "Delivery Delays and Poor Customer Support",
+    "summary": "Users are experiencing severe delivery delays, highly inaccurate ETA tracking, and unprofessional behavior from delivery partners. When issues arise, both the automated AI assistant and human customer support fail to provide resolution, leaving customers frustrated and empty-handed.",
+    "suggested_fix": "Optimize the delivery partner assignment system to prevent idle orders and improve ETA calculation accuracy. Additionally, implement an automatic escalation path from the AI assistant to human support agents when a delivery exceeds its promised time window.",
+    "cluster_id": 3,
+    "review_count": 135
+  },
+  {
+    "cluster_theme": "Missing items, delivery partner discrepancies, and unfair account blocking",
+    "summary": "Customers frequently report paying for items that are missing or incorrect upon delivery, with delivery partners sometimes misguiding them on refund processes. When users attempt to complain or seek refunds, they are met with unhelpful automated support, and in many cases, their accounts are arbitrarily blocked, causing them to lose access to their wallet balances.",
+    "suggested_fix": "Introduce a secure, item-level verification process upon delivery (such as OTP or photo proof) and reform the fraud-detection algorithms to stop automatically blocking customers who file legitimate refund complaints.",
+    "cluster_id": 4,
+    "review_count": 42
+  },
+  {
+    "cluster_theme": "Customer Support and Refund Failures",
+    "summary": "Customers are frequently experiencing unfulfilled orders, missing or tampered items, and fraudulent delivery practices. When seeking resolution, users are blocked by unhelpful AI chatbots and support agents who systematically deny refunds and refuse to investigate delivery discrepancies. This lack of human intervention and delayed financial remediation is severely damaging customer trust.",
+    "suggested_fix": "Implement a seamless 'escalate to human' option in the support chat and introduce an OTP-based delivery confirmation system to prevent fraudulent delivery markings. Additionally, automate instant refund processing for system-initiated cancellations and verified missing items.",
+    "cluster_id": 5,
+    "review_count": 147
+  }
+]

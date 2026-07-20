@@ -1,0 +1,4 @@
+dissatisfied_users_annual,churned_users_annual,revenue_at_risk_annual_inr,revenue_at_risk_annual_cr,scenario,dissatisfaction_rate_assumed,churn_rate_assumed
+684375,68438,821250000,82.1,Conservative,5%,10%
+1095000,164250,1971000000,197.1,Moderate,8%,15%
+1642500,328500,3942000000,394.2,Aggressive,12%,20%
